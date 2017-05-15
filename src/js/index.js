@@ -1,6 +1,6 @@
-const m = 128;
+const m = 16;
 const maxNodes = 4^m;
-const distance = 40;
+const distance = 50;
 
 const nodes = d3.range(maxNodes).map( (i) => ({
 	index: i
